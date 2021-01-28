@@ -49,10 +49,13 @@ CherryMXキースイッチは、親指扇形部分以外の72カ所半田付け�
 
 ※注意点:親指キー部分は、キースイッチによっては干渉してしまう場合があります。その場合、干渉するキーの出っ張り部分をニッパ等で切り落としてください。
 
-## ファームウェア書き込み
-QMK Toolboxでhexファイルを書き込んでください。
+## ProMicroにファームウェア書き込み
+[QMK Toolbox](https://github.com/qmk/qmk_toolbox) で、ファームウェア（hexファイル）をProMicroに書き込む必要があります。
+
+[QMK Toolbox](https://github.com/qmk/qmk_toolbox) のインストール・使い方については、サリチル酸さんが書かれた[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox) が分かりやすいです。
+
 [tlsplit18_default.hex](https://github.com/satromi/tlsplit18_rev0/blob/master/hex/tlsplit18_default.hex) をダウンロードして、QMK Toolboxで書き込みます。
-左右それぞれ書き込みが必要です。
+左右のProMicroそれぞれ書き込みが必要です。
 
 ## 動作確認
 
